@@ -15,7 +15,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
 
   const getMovieRequest = async (searchValue) => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=ac7f5e75`;
 
     /* Setting the loading state to true. */
     if (searchValue !== "") {
